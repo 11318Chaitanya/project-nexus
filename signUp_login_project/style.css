@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Lato&family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin: 5px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+a{
+    color: #3498db;
+}
+label{
+    color: #fff;
+}
+h2{
+    font-size: 2rem;
+    color: #fff;
+}
+p{
+    color: #ffffffbe;
+}
+
+.btn{
+    width: 100%;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top left, red, blue);
+    /* background: linear-gradient(to right, #4568dc, #b06ab3); */
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 450px;
+    height: 500px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 4%;
+    overflow: hidden;
+}
+.details{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0% 7%;
+}
+.formClass{
+    width: 100%;
+}
+.box-wrapper{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.page_signup{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page_login{
+    position: absolute;
+    top: 0;
+    right: -100%;
+}
+
+.lg{
+    right: 0%;
+}
+.su{
+    left: -100%;
+}
+
+@media (max-width:500px) {
+    .box{
+        width: 300px;
+    }
+}
